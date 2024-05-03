@@ -5,7 +5,12 @@ public class Employee {
     byte age;
     char gender;
 
+    //This way, all instances hold the same values
     public Employee() {
+        this.firstName = "John";
+        this.lastName = "Doe";
+        this.age = 30;
+        this.gender = 'M';
         System.out.println("Object is getting created!");
     }
 
