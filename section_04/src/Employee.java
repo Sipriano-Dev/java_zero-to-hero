@@ -2,6 +2,15 @@ public class Employee {
 
     String firstName;
     String lastName;
-    int age;
-    byte gender;
+    byte age;
+    char gender;
+
+    public byte getAge() {
+        return age;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
 }
