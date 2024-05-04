@@ -5,13 +5,10 @@ public class Employee {
     byte age;
     char gender;
 
-    //This way, all instances hold the same values
+    //Constructor chaining, calling one from another
     public Employee() {
-        this.firstName = "John";
-        this.lastName = "Doe";
-        this.age = 30;
-        this.gender = 'M';
-        System.out.println("Object is getting created!");
+        this("Will", "Smith", (byte)55, 'M');
+        System.out.println("Object is getting created in default constructor!");
     }
 
     //Constructor Overloading
@@ -20,6 +17,7 @@ public class Employee {
         this.lastName = lastName;
         this.age = age;
         this.gender = gender;
+        System.out.println("Object is getting created in overloaded constructor!");
     }
 
     public byte getAge() {

@@ -11,6 +11,7 @@ public class EmployeeMain {
 
         Employee employee1 = new Employee("John", "Doe", (byte)30, 'M');
         Employee employee2 = new Employee("Max", "Steve", (byte)25, 'F');
+        Employee employee3 = new Employee();//Constructor chained
 
         System.out.println(employee1.getAge());
         System.out.println(employee1.getGender());
