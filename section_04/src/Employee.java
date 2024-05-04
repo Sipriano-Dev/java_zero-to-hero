@@ -14,6 +14,14 @@ public class Employee {
         System.out.println("Object is getting created!");
     }
 
+    //Constructor Overloading
+    public Employee(String firstName, String lastName, byte age, char gender) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+    }
+
     public byte getAge() {
         return age;
     }
