@@ -4,7 +4,7 @@ public class Employee {
     String lastName;
     byte age;
     char gender;
-    static String employerName = "Google";
+    static final String EMPLOYER_NAME = "Google";
 
     //Constructor chaining, calling one from another
     public Employee() {

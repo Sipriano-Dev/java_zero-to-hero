@@ -11,7 +11,7 @@ public class CarMain {
         System.out.println(car2.color);
         System.out.println(car2.horsePower);
 
-        System.out.println(Car.nuOfWheels);
+        System.out.println(Car.NU_OF_WHEELS);
 
     }
 }
