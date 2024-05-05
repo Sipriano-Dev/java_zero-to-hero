@@ -3,6 +3,7 @@ public class Car {
     String model;
     String color;
     int horsePower;
+    static byte nuOfWheels = 4;
 
     //instance initialization block to avoid duplication in multiple constructor
     {
