@@ -4,7 +4,7 @@
 - [x] Section 1: Let's Say Hello to Java
 - [x] Section 2: Primitive data types in Java
 - [x] Section 3: What happens behind the scenes when a Java program executes
-- [ ] Section 4: Deep dive on Java classes, methods, fields, constructors
+- [x] Section 4: Deep dive on Java classes, methods, fields, constructors
 - [ ] Section 5: Comments in Java
 - [ ] Section 6: Deep dive on String in Java
 - [ ] Section 7: Operators in Java
