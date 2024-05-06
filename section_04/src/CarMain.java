@@ -1,5 +1,6 @@
 public class CarMain {
     public static void main(String[] args) {
+        System.out.println("Main method started...");
 
         Car car1 = new Car();
         System.out.println(car1.model);
@@ -12,6 +13,7 @@ public class CarMain {
         System.out.println(car2.horsePower);
 
         System.out.println(Car.NU_OF_WHEELS);
+        System.out.println(Car.nuOfEngines);
 
     }
 }
