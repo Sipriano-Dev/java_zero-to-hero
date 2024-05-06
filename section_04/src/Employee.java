@@ -29,4 +29,8 @@ public class Employee {
         return gender;
     }
 
+    public String getEmployerName() {
+        return EMPLOYER_NAME;
+    }
+
 }
