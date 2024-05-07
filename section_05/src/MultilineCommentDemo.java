@@ -10,9 +10,9 @@ public class MultilineCommentDemo {
     static final int MAX_RETRY_ATTEMPTS = 3;
 
     public static void main(String[] args) {
-        /*MultilineCommentDemo obj = new MultilineCommentDemo();
+        MultilineCommentDemo obj = new MultilineCommentDemo();
         double result = obj.calculateRectangleArea(24, 34);
-        System.out.println(result);*/
+        System.out.println(result);
     }
 
     /*
