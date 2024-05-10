@@ -6,7 +6,7 @@
 - [x] Section 3: What happens behind the scenes when a Java program executes
 - [x] Section 4: Deep dive on Java classes, methods, fields, constructors
 - [x] Section 5: Comments in Java
-- [ ] Section 6: Deep dive on String in Java
+- [x] Section 6: Deep dive on String in Java
 - [ ] Section 7: Operators in Java
 - [ ] Section 8: Control flow statements in Java
 - [ ] Section 9: packages in Java
