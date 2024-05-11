@@ -26,6 +26,13 @@ public class RelationalOperatorsDemo {
         isNotEqual = num6 != num7;
 
         boolean isSimilar1 = (num1 != num2) &&  (num2 != num3);
+
+        int num8 = 9;
+        int num9 = 6;
+        double num10 = Double.NaN;
+        boolean isGreaterThanOrEqual;
+        isGreaterThanOrEqual = num8 >= num9; // true
+        isGreaterThanOrEqual = num10 >= Double.NaN; // false
         
     }
 
