@@ -21,6 +21,17 @@ public class ArithmeticOperatorsDemo {
         //Modulus
         int result3 = 21%2; //1
 
+        //Unary operations
+        byte num7 = 9;
+        byte num8 = 3;
+        num7 = (byte) +num8;
+
+        byte num9 = 9;
+        byte num10 = 3;
+        num7 = (byte) -num8;
+
+        byte num11 = -(-9);
+
     }
 
 }
