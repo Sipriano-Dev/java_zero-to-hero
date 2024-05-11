@@ -42,6 +42,15 @@ public class ArithmeticOperatorsDemo {
         String str = "Hello";
         str += 9;
 
+        //Increments and Decrements Operators
+        int num14 = 45;
+        int num15 = 4;
+        num15 = num14++ + 5;
+
+        int num16 = 45;
+        int num17 = 4;
+        num17 = ++num16 + 5;
+
     }
 
 }
