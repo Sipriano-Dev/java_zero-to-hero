@@ -12,7 +12,7 @@ public class ArithmeticOperatorsDemo {
         byte num6 = 3;
         num4 =  num5 + num6;
         System.out.println(num4);
-        
+
     }
 
 }
