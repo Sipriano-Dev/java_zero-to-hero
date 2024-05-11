@@ -18,6 +18,9 @@ public class ArithmeticOperatorsDemo {
         int result1 = 9/2; //Truncated 4
         float result2 = 27/2.0f; //No truncated 13.5
 
+        //Modulus
+        int result3 = 21%2; //1
+
     }
 
 }
