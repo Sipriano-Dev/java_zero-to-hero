@@ -13,6 +13,10 @@ public class LogicalOperatorsDemo {
         System.out.println(a);
         System.out.println(num2);
 
+        boolean b = (num1 < 10) || ((num2=18)>15);
+        System.out.println(b);
+        System.out.println(num2);
+
     }
 
 }
