@@ -20,6 +20,18 @@ public class LogicalOperatorsDemo {
         boolean c = (num1>5) ^ (num2>10);
         System.out.println(c);
 
+        boolean b1 = true;
+        b1 &= true;
+        System.out.println(b1);
+
+        boolean b2 = true;
+        b2 |= false;
+        System.out.println(b2);
+
+        boolean b3 = true;
+        b3 ^= false;
+        System.out.println(b3);
+
     }
 
 }
