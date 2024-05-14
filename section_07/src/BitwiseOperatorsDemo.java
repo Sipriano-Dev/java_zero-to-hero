@@ -27,6 +27,9 @@ public class BitwiseOperatorsDemo {
         int z6 = x3 >> 3; //-7
         System.out.println(z6);
 
+        int z7 = x1 >>> 2; // 2
+        System.out.println(z7);
+
     }
 
 }
