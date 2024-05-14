@@ -20,7 +20,12 @@ public class BitwiseOperatorsDemo {
         int z4 = x1 << 2; // 40 = 10*4
         System.out.println(z4);
 
-        
+        int x2 = 50;
+        int x3 = -50;
+        int z5 = x2 >> 3; //6
+        System.out.println(z5);
+        int z6 = x3 >> 3; //-7
+        System.out.println(z6);
 
     }
 
