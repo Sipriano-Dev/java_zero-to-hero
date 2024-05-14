@@ -30,6 +30,11 @@ public class BitwiseOperatorsDemo {
         int z7 = x1 >>> 2; // 2
         System.out.println(z7);
 
+        int x4 = 10;
+        int y4 = 6;
+        x4 &= y4;
+        System.out.println(x4); // 2
+
     }
 
 }
