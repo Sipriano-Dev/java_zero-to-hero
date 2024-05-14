@@ -11,6 +11,9 @@ public class BitwiseOperatorsDemo {
         int z1 = x1 & y1; // 2
         System.out.println(z1);
 
+        int z2 = x1 | y1; // 14
+        System.out.println(z2);
+
     }
 
 }
