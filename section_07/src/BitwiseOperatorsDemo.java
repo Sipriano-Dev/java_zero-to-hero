@@ -17,6 +17,11 @@ public class BitwiseOperatorsDemo {
         int z3 = x1 ^ y1; // 12
         System.out.println(z3);
 
+        int z4 = x1 << 2; // 40 = 10*4
+        System.out.println(z4);
+
+        
+
     }
 
 }
