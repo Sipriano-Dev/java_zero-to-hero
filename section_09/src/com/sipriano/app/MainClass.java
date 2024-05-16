@@ -1,5 +1,6 @@
 package com.sipriano.app;
 
+import com.sipriano.model.Class1;
 import com.sipriano.model.Employee;
 import com.sipriano.model.Vehicle;
 
@@ -22,6 +23,9 @@ public class MainClass {
         System.out.println(MyConstants.calculateTotalCost(9.99));
 
         System.out.println(PI);
+
+        Class1 c1 = new Class1();
+        com.sipriano.service.Class1 c2 = new com.sipriano.service.Class1(); //same name, complete qualified name is needed
 
     }
 
