@@ -27,6 +27,9 @@ public class MainClass {
         Class1 c1 = new Class1();
         com.sipriano.service.Class1 c2 = new com.sipriano.service.Class1(); //same name, complete qualified name is needed
 
+        MyOuterClass.MyInnerClass myInnerClass = new MyOuterClass.MyInnerClass();
+        myInnerClass.display();
+
     }
 
 }
