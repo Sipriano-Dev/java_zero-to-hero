@@ -30,6 +30,9 @@ public class MainClass {
         MyOuterClass.MyInnerClass myInnerClass = new MyOuterClass.MyInnerClass();
         myInnerClass.display();
 
+        AccessModifiersDemo amd = new AccessModifiersDemo();
+
+
     }
 
 }
