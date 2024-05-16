@@ -9,7 +9,7 @@
 - [x] Section 6: Deep dive on String in Java
 - [x] Section 7: Operators in Java
 - [x] Section 8: Control flow statements in Java
-- [ ] Section 9: packages in Java
+- [x] Section 9: packages in Java
 - [ ] Section 10: Inheritance in Java
 - [ ] Section 11: Interfaces in Java
 - [ ] Section 12: Arrays in Java
