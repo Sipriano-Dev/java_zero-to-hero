@@ -10,6 +10,9 @@ public class MainClass {
         Vehicle vehicle = new Vehicle();
         Employee employee = new Employee();
 
+        String str = new String("Hello"); //all class in java.lang doesn't need import
+        Integer num;
+
     }
 
 }
