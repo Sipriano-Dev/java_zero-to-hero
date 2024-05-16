@@ -2,6 +2,7 @@ package com.sipriano.app;
 
 import com.sipriano.model.Class1;
 import com.sipriano.model.Employee;
+import com.sipriano.model.Person;
 import com.sipriano.model.Vehicle;
 
 import com.sipriano.utility.MyConstants;
@@ -32,6 +33,11 @@ public class MainClass {
 
         AccessModifiersDemo amd = new AccessModifiersDemo();
 
+        Person person = new Person();
+        person.firstName = "John";
+        person.lastName = "Doe";
+        person.age = 35;
+        person.salary = 10000.00;
 
     }
 
