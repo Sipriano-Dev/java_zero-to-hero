@@ -34,10 +34,12 @@ public class MainClass {
         AccessModifiersDemo amd = new AccessModifiersDemo();
 
         Person person = new Person();
-        person.firstName = "John";
-        person.lastName = "Doe";
-        person.age = 35;
-        person.salary = 10000.00;
+        person.setFirstName("John");
+        person.setLastName("Doe");
+        person.setAge(35);
+        person.setSalary(10000.00);
+
+        System.out.println(person.getFirstName());
 
     }
 
