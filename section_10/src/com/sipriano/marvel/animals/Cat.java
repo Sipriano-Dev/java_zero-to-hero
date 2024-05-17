@@ -2,10 +2,10 @@ package com.sipriano.marvel.animals;
 
 import com.sipriano.marvel.base.Animal;
 
-public class Dog extends Animal {
+public class Cat extends Animal {
 
     public void eat() {
-        System.out.println("Dog is eating");
+        System.out.println("Cat is eating");
     }
 
 }
