@@ -16,8 +16,7 @@ public class AnimalUtility {
         if (animal instanceof Dog) {
             Dog dog = (Dog) animal;
             dog.bark();
-        } else if (animal instanceof Cat){
-            Cat cat = (Cat) animal;
+        } else if (animal instanceof Cat cat){ //Java 16+
             cat.meow();
         }
     }
