@@ -10,7 +10,7 @@
 - [x] Section 7: Operators in Java
 - [x] Section 8: Control flow statements in Java
 - [x] Section 9: packages in Java
-- [ ] Section 10: Inheritance in Java
+- [x] Section 10: Inheritance in Java
 - [ ] Section 11: Interfaces in Java
 - [ ] Section 12: Arrays in Java
 - [ ] Section 13: Accept input using BufferedReader and Scanner
