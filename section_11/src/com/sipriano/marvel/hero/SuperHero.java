@@ -13,4 +13,10 @@ public interface SuperHero {
      * @return return status
      */
     String StopVillain(char c);
+
+    default String trackLiveLocation() {
+        String liveLocation = "USA";
+        System.out.println("I am in " + liveLocation);
+        return liveLocation;
+    }
 }

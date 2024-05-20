@@ -16,4 +16,12 @@ public class SpiderMan implements SuperHero {
             return "SpiderMan stopped the villain";
         }
     }
+
+    @Override
+    public String trackLiveLocation() {
+        String liveLocation = "London";
+        System.out.println("I am in " + liveLocation);
+        return liveLocation;
+    }
+
 }
