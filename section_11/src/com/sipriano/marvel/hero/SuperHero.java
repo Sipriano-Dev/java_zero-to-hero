@@ -2,6 +2,8 @@ package com.sipriano.marvel.hero;
 
 public interface SuperHero {
 
+    String UNIVERSE_NAME = "Marvel"; //public static final implicit
+
     String usePower(); //public abstract implicit
 
     /***

@@ -9,6 +9,8 @@ public class MarvelHeroDemo {
 
     public static void main(String[] args) {
 
+        System.out.println(SuperHero.UNIVERSE_NAME);
+
         SuperHero ironMan = new IronMan();
         invokeSuperHero(ironMan);
 
