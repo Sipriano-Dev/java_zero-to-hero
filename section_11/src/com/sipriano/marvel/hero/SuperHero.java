@@ -1,6 +1,6 @@
 package com.sipriano.marvel.hero;
 
-public interface SuperHero {
+public interface SuperHero extends Person, Hero {
 
     String UNIVERSE_NAME = "Marvel"; //public static final implicit
 
@@ -24,5 +24,8 @@ public interface SuperHero {
         return "Super Human abilities, Willingness to sacrifice";
     }
 
-
+    @Override
+    default String walk() {
+        return Hero.super.walk();
+    };
 }
