@@ -19,4 +19,10 @@ public interface SuperHero {
         System.out.println("I am in " + liveLocation);
         return liveLocation;
     }
+
+    static String commonCharacteristics() {
+        return "Super Human abilities, Willingness to sacrifice";
+    }
+
+
 }
