@@ -12,7 +12,7 @@
 - [x] Section 9: packages in Java
 - [x] Section 10: Inheritance in Java
 - [x] Section 11: Interfaces in Java
-- [ ] Section 12: Arrays in Java
+- [x] Section 12: Arrays in Java
 - [ ] Section 13: Accept input using BufferedReader and Scanner
 - [ ] Section 14: Exception handling using try, catch and finally
 - [ ] Section 15: Unmasking Java's Superclass(java.lang.Object) Secrets
