@@ -21,6 +21,8 @@ public class BufferedReaderEvenOddDemo {
             System.out.println("The num " + num + " is odd");
         }
 
+        bf.close();
+
     }
 
 }

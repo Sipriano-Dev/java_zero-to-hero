@@ -22,6 +22,8 @@ public class BufferedReaderEvenSumDemo {
 
         System.out.println("The Sum is : " + (num1 + num2));
 
+        bf.close();
+
     }
 
 }

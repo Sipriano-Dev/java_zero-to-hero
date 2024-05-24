@@ -16,6 +16,8 @@ public class PrimeNumberChecker {
 
         System.out.println(isPrime(num));
 
+        bf.close();
+
     }
 
     private static boolean isPrime(int num) {
