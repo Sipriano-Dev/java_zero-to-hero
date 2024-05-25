@@ -7,15 +7,23 @@ public class ExceptionDemo {
 
     public static void main(String[] args) {
 
+        Scanner scan = null;
+
         try {
-            Scanner scan = new Scanner(System.in);
+            scan = new Scanner(System.in);
             System.out.print("Enter a number: ");
             int num = scan.nextInt();
             System.out.println("You typed the number " + num);
-            scan.close();
         } catch (Exception e) {
             System.out.println("Provide a numerical and try again");
 
+        }
+
+        finally {
+            System.out.println("finally block is being executed");
+            if(scan != null) {
+                scan.close();
+            }
         }
 
     }
