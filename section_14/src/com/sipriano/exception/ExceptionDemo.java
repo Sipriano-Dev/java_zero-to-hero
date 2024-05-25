@@ -13,9 +13,9 @@ public class ExceptionDemo {
             int num = scan.nextInt();
             System.out.println("You typed the number " + num);
             scan.close();
-        } catch (InputMismatchException e) {
+        } catch (Exception e) {
             System.out.println("Provide a numerical and try again");
-            e.
+
         }
 
     }
