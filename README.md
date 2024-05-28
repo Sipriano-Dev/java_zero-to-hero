@@ -14,7 +14,7 @@
 - [x] Section 11: Interfaces in Java
 - [x] Section 12: Arrays in Java
 - [x] Section 13: Accept input using BufferedReader and Scanner
-- [ ] Section 14: Exception handling using try, catch and finally
+- [x] Section 14: Exception handling using try, catch and finally
 - [ ] Section 15: Unmasking Java's Superclass(java.lang.Object) Secrets
 - [ ] Section 16: Introduction to Collections & Wrapper Classes
 - [ ] Section 17: Lists and ArrayLists Unleashed – A Hilarious Journey through Data Structures
