@@ -11,6 +11,8 @@ public class HashCodeEqualsDemo {
         System.out.println(p2.hashCode());
 
         System.out.println(p1.equals(p2)); //False, because it compares the address memory location
+
+        System.out.println(p1.toString());
     }
 
 }

@@ -66,4 +66,13 @@ public class Person {
                 && gender == person.getGender() && ssn == person.getSsn();
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", ssn=" + ssn +
+                '}';
+    }
 }
