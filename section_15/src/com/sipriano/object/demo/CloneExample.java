@@ -1,6 +1,6 @@
 package com.sipriano.object.demo;
 
-public class ShallowCloneExample {
+public class CloneExample {
 
     public static void main(String[] args) throws CloneNotSupportedException {
 
@@ -15,8 +15,7 @@ public class ShallowCloneExample {
         System.out.println(student == student2);
 
         System.out.println(student.getCourse().equals(student2.getCourse()));
-        //Will be true the same(true), since is ShallowClone Student is point to the same object dependency
-        //Because it does not cloning the dependency
+        //Now they are the same because of deep cloning
 
 
     }
