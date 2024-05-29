@@ -2,7 +2,7 @@ package com.sipriano.object.demo;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Cloneable{
 
     private String name;
     private int age;
@@ -75,4 +75,10 @@ public class Person {
                 ", ssn=" + ssn +
                 '}';
     }
+
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+
+    }
+
 }
