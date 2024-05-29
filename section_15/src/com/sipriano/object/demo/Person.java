@@ -59,13 +59,8 @@ public class Person {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || !(getClass() == o.getClass())) {
-            return false;
-        }
-
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o; //does not need instanceOf because is the same class (above)
         return Objects.equals(name, person.getName()) && age == person.getAge()
                 && gender == person.getGender() && ssn == person.getSsn();
