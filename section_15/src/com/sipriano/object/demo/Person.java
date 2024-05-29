@@ -1,5 +1,7 @@
 package com.sipriano.object.demo;
 
+import java.util.Objects;
+
 public class Person {
 
     private String name;
@@ -49,4 +51,24 @@ public class Person {
     public void setSsn(int ssn) {
         this.ssn = ssn;
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, gender, ssn);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || !(getClass() == o.getClass())) {
+            return false;
+        }
+
+        Person person = (Person) o; //does not need instanceOf because is the same class (above)
+        return Objects.equals(name, person.getName()) && age == person.getAge()
+                && gender == person.getGender() && ssn == person.getSsn();
+    }
+
 }
