@@ -8,7 +8,7 @@ public class DiamondOperator {
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>();
         List<Character> characters = new ArrayList<>();
-        var doubleNums = new ArrayList<Double>(); 
+        var doubleNums = new ArrayList<Double>();
         List<String> countryNames = new ArrayList<>();
     }
 
