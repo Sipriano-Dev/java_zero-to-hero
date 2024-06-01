@@ -3,6 +3,7 @@ package com.sipriano.list;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListIteratorExample {
 
@@ -15,17 +16,23 @@ public class ArrayListIteratorExample {
         countryNames.add("Germany");
         countryNames.add("India");
 
-        Iterator<String> interator = countryNames.iterator();
+        ListIterator<String> listIterator = countryNames.listIterator();
 
-        while (interator.hasNext()) {
-            String ite = interator.next();
-            System.out.println(ite);
-            if (ite == "India") {
-                interator.remove();
+        while (listIterator.hasNext()) {
+            String iterator = listIterator.next();
+            System.out.println(iterator);
+            if (iterator == "India") {
+                listIterator.remove();
             }
         }
 
-        System.out.println(countryNames);
+        while (listIterator.hasPrevious()) {
+            String iterator = listIterator.previous();
+            System.out.println(iterator);
+            if (iterator == "India") {
+                listIterator.remove();
+            }
+        }
 
     }
 
