@@ -30,6 +30,15 @@ public class SortingDemo {
         System.out.println(list);
         list.sort(Comparator.naturalOrder());
         System.out.println(list);
+        System.out.println("_____________________________");
+        Collections.sort(stringList, new LastCharComparator());
+        Collections.sort(stringList, new LastCharComparator().reversed());
+        System.out.println("----------------------------------");
+        stringList.sort(new LastCharComparator());
+        System.out.println(stringList);
+        stringList.sort(new LastCharComparator().reversed());
+        System.out.println(stringList);
+
 
     }
 
