@@ -14,6 +14,14 @@ public class LinkedListDemo {
         countryNames.add("USA");
         countryNames.add("Germany");
         countryNames.add("India");
+        System.out.println(countryNames);
+        countryNames.set(4, "Spain");
+        countryNames.remove("India");
+        String firstElement = countryNames.getFirst();
+        String lastElement = countryNames.getLast();
+        System.out.println(countryNames);
+        LinkedList<String> reversedCountryNames = countryNames.reversed();
+        System.out.println(reversedCountryNames);
 
     }
 
