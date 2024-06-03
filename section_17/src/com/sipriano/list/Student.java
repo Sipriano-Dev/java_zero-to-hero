@@ -2,9 +2,9 @@ package com.sipriano.list;
 
 public class Student implements Comparable<Student> {
 
-    private String name;
-    private int rollNumber;
-    private int marks;
+    String name;
+    int rollNumber;
+    int marks;
 
     public Student(String name, int rollNumber, int marks) {
         this.name = name;

@@ -24,6 +24,12 @@ public class StudentSortingDemo {
         System.out.println(students);
         students.sort(Comparator.reverseOrder());
 
+        Collections.sort(students, new StudentComparator());
+        System.out.println(students);
+        System.out.println("-------------------------");
+        students.sort(new StudentComparator().reversed());
+        System.out.println(students);
+
 
 
     }
