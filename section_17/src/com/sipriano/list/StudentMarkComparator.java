@@ -1,4 +1,4 @@
-package com.eazybytes.list;
+package com.sipriano.list;
 
 import java.util.Comparator;
 
