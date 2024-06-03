@@ -17,7 +17,7 @@
 - [x] Section 14: Exception handling using try, catch and finally
 - [x] Section 15: Unmasking Java's Superclass(java.lang.Object) Secrets
 - [x] Section 16: Introduction to Collections & Wrapper Classes
-- [ ] Section 17: Lists and ArrayLists Unleashed – A Hilarious Journey through Data Structures
+- [x] Section 17: Lists and ArrayLists Unleashed – A Hilarious Journey through Data Structures
 - [ ] Section 18: LinkedLists - Java's Dance of Nodes
 - [ ] Section 19: Generics in Java
 - [ ] Section 20: Deep dive on Map, HashMap, TreeMap, LinkedHashMap
