@@ -1,9 +1,6 @@
 package com.sipriano.map;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMapIterationDemo {
 
@@ -13,10 +10,11 @@ public class HashMapIterationDemo {
         countryMap.put("India", "Delhi");
         countryMap.put("USA","Washington, DC");
         countryMap.put("France","Paris");
-        approach2(countryMap);
+        approach3(countryMap);
 
     }
 
+    //Approach 1
     public static void approach1(Map<String, String> countryMap) {
 
         /*
@@ -35,8 +33,10 @@ public class HashMapIterationDemo {
         */
     }
 
+    //Approach 2
     public static void approach2(Map<String, String> countryMap) {
 
+        /*
         Set<Map.Entry<String, String>> entries = countryMap.entrySet();
         for (Map.Entry<String, String> entry : entries) {
             String key = entry.getKey();
@@ -44,7 +44,6 @@ public class HashMapIterationDemo {
             System.out.println(key + ":" + capital);
         }
 
-        /*
         Iterator<Map.Entry<String, String>> iterator = entries.iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, String> entry = iterator.next();
@@ -53,6 +52,16 @@ public class HashMapIterationDemo {
             System.out.println(key + ":" + capital);
         }
         */
+    }
+
+    //Approach 3
+    public static void approach3(Map<String, String> countryMap) {
+
+        Collection<String> values = countryMap.values();
+        for (String value : values) {
+            System.out.println(value);
+        }
+
     }
 
 }
