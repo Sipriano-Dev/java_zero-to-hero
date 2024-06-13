@@ -20,7 +20,7 @@
 - [x] Section 17: Lists and ArrayLists Unleashed – A Hilarious Journey through Data Structures
 - [x] Section 18: LinkedLists - Java's Dance of Nodes
 - [x] Section 19: Generics in Java
-- [ ] Section 20: Deep dive on Map, HashMap, TreeMap, LinkedHashMap
+- [x] Section 20: Deep dive on Map, HashMap, TreeMap, LinkedHashMap
 - [ ] Section 21: Set, HashSet, TreeSet, LinkedHashSet
 - [ ] Section 22: Enums in Java
 - [ ] Section 23: Date and Time in Java
