@@ -15,6 +15,12 @@ public class HashSetDemo {
         for (String e : visitedCountries) {
             System.out.println(e);
         }
+
+        boolean hasDubai = visitedCountries.contains("Brazil");
+        boolean isRemoved  = visitedCountries.remove("France");
+
+        System.out.println(visitedCountries);
+
     }
 
 }
