@@ -22,7 +22,7 @@
 - [x] Section 19: Generics in Java
 - [x] Section 20: Deep dive on Map, HashMap, TreeMap, LinkedHashMap
 - [x] Section 21: Set, HashSet, TreeSet, LinkedHashSet
-- [ ] Section 22: Enums in Java
+- [x] Section 22: Enums in Java
 - [ ] Section 23: Date and Time in Java
 - [ ] Section 24: [JAVA 8] Functional Programming using lambda expressions
 - [ ] Section 25: [JAVA 8] Building Lambda expressions using Method References
