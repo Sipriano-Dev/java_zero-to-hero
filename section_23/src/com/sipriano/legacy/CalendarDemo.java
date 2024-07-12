@@ -1,5 +1,6 @@
 package com.sipriano.legacy;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -25,6 +26,19 @@ public class CalendarDemo {
 
         gregorianCalendar.set(Calendar.YEAR, 2025);
         System.out.println(gregorianCalendar.get(Calendar.YEAR));
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        String formattedDate = sdf.format(gregorianCalendar.getTime());
+        System.out.println(formattedDate);
+
+        gregorianCalendar.add(Calendar.HOUR, 2);
+        gregorianCalendar.add(Calendar.MONTH, -1);
+        gregorianCalendar.set(Calendar.MONTH, 3);
+        formattedDate = sdf.format(gregorianCalendar.getTime());
+        System.out.println(formattedDate);
+
+        boolean isLeapYear = gregorianCalendar.isLeapYear(2052);
+        System.out.println(isLeapYear);
 
     }
 
