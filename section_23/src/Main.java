@@ -1,31 +1,20 @@
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
+import java.time.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(localDateOperations());
-    }
+        ZonedDateTime londonStartTime, londonEndTime, newYorkStartTime,newYorkEndTime;
 
-    public static LocalDate localDateOperations() {
-        LocalDate date = LocalDate.of(2025, 12, 25);
-        LocalDate newDate = date.plusMonths(6).plusDays(18);
-        return newDate;
-    }
+        londonStartTime = ZonedDateTime.of(2024, 10, 15,
+                14, 0, 0, 0, ZoneId.of("Europe/London"));
+        londonEndTime = londonStartTime.plusHours(2);
+        newYorkStartTime = londonStartTime.withZoneSameInstant(ZoneId.of("America/New_York"));
+        newYorkEndTime = newYorkStartTime.plusHours(2);
 
-    public static LocalTime localTimeOperations() {
-        LocalTime time = LocalTime.of(9, 0, 0);
-        LocalTime newTime = time.plusHours(8).plusMinutes(15);
-        return newTime;
+        System.out.println("Conference Call Start Time (London): " + londonStartTime);
+        System.out.println("Conference Call End Time (London): " + londonEndTime);
+        System.out.println("Conference Call Start Time (New York): " + newYorkStartTime);
+        System.out.println("Conference Call End Time (New York): " + newYorkEndTime);
     }
-
-    public static LocalDateTime localDateTimeOperations() {
-        LocalDateTime dateTime = LocalDateTime.of(2025, 12, 25, 9, 30, 0);
-        LocalDateTime newDateTime =dateTime.minusWeeks(4).minusMinutes(30);
-        return newDateTime;
-    }
-
 
 }
