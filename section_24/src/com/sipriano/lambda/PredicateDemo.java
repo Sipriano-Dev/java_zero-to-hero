@@ -1,6 +1,9 @@
 package com.sipriano.lambda;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class PredicateDemo {
 
@@ -17,6 +20,18 @@ public class PredicateDemo {
         System.out.println(isEven.and(isGreaterThan50).test(52));//True
         System.out.println(isEven.and(isGreaterThan50).test(40));//False
         System.out.println(isEven.or(isGreaterThan50).test(40));//True
+
+        System.out.println(isEven.negate().test(63)); // true
+
+        Predicate<Integer> isOdd = Predicate.not(isEven);
+        System.out.println(isOdd.test(4)); // false
+
+        Predicate<String> checkEquality = Predicate.isEqual("Eazy Bytes");
+        System.out.println(checkEquality.test("Eazy Bytes")); // true
+
+        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> evenList = list.stream().filter(isEven).collect(Collectors.toList());
+        System.out.println(evenList);
 
     }
 
