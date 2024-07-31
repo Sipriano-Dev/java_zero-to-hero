@@ -1,8 +1,6 @@
 package com.sipriano.lambda;
 
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.BiPredicate;
+import java.util.function.*;
 
 public class BiFunctionsDemo {
 
@@ -18,6 +16,17 @@ public class BiFunctionsDemo {
 
         BiConsumer<String, String> appendAndLength = (input1, input2) -> System.out.println(input1.concat(input2).length());
         appendAndLength.accept("Anderson", " Sipriano");
+
+        //BinaryOperator in Bifunction
+        BinaryOperator<Double> calculatePowerB = (num1, num2) -> Math.pow(num1, num2);
+        System.out.println(calculatePower.apply(5.0, 2.0));
+
+        BinaryOperator<Integer> maxOperator = BinaryOperator.maxBy((a, b) -> Integer.compare(a, b));
+        System.out.println(maxOperator.apply(2, 5));
+
+        BinaryOperator<Integer> minOperator = BinaryOperator.minBy((a, b) -> Integer.compare(a, b));
+        System.out.println(minOperator.apply(2, 5));
+
     }
 
 }
