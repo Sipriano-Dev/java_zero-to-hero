@@ -25,7 +25,7 @@
 - [x] Section 22: Enums in Java
 - [x] Section 23: Date and Time in Java
 - [x] Section 24: [JAVA 8] Functional Programming using lambda expressions
-- [ ] Section 25: [JAVA 8] Building Lambda expressions using Method References
+- [x] Section 25: [JAVA 8] Building Lambda expressions using Method References
 - [ ] Section 26: [JAVA 8] Streams API
 - [ ] Section 27: [JAVA 8] Optional to deal with nulls in Java
 - [ ] Section 28: MultiThreading in Java
