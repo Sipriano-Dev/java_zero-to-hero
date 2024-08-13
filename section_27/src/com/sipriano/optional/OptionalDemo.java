@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class OptionalDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         //Without Optional you have to handle possible null exception like this
         String message = sayHi();
@@ -30,6 +30,16 @@ public class OptionalDemo {
 
         String msg2 = optionalMsg.orElseGet(() -> "Value is absent too 2");
         System.out.println(msg2);
+
+//        String msg3 = optionalMsg.orElseThrow();
+//        String msg3 = optionalMsg.orElseThrow(() -> new IllegalArgumentException("Value is absent"));
+//        System.out.println(msg3);
+
+        Optional<String> mapOptionalStr = optionalMsg.map(String::toUpperCase);
+        System.out.println(mapOptionalStr);//if is not present, will be an empty object
+
+        Optional<String> filterOptionalStr = optionalMsg.filter(input -> input.length() > 5);
+        System.out.println(filterOptionalStr);//if is not present, will be an empty object
 
 
     }
