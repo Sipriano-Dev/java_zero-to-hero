@@ -22,6 +22,15 @@ public class OptionalDemo {
         //Another way
         optionalMsg.ifPresent(x -> System.out.println(x.toUpperCase()));
 
+        optionalMsg.ifPresentOrElse(x -> System.out.println(x.toUpperCase()),
+                () -> System.out.println("Value is absent"));
+
+        String msg = optionalMsg.orElse("Value is absent too");
+        System.out.println(msg);
+
+        String msg2 = optionalMsg.orElseGet(() -> "Value is absent too 2");
+        System.out.println(msg2);
+
 
     }
 
