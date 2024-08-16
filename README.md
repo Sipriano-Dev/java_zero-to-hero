@@ -28,7 +28,7 @@
 - [x] Section 25: [JAVA 8] Building Lambda expressions using Method References
 - [x] Section 26: [JAVA 8] Streams API
 - [x] Section 27: [JAVA 8] Optional to deal with nulls in Java
-- [ ] Section 28: MultiThreading in Java
+- [x] Section 28: MultiThreading in Java
 - [ ] Section 29: Other prominent new features from Java 22
   
 ## Important Links
